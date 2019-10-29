@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544440759791",
+    "firebase_url": "https://chatred-fc2cc.firebaseio.com",
+    "project_id": "chatred-fc2cc",
+    "storage_bucket": "chatred-fc2cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544440759791:android:21a0158b4de3db358f721a",
+        "android_client_info": {
+          "package_name": "com.example.chatred"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544440759791-qu3uvt2hrplcusonqc3kh2qirf1f4em2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatred",
+            "certificate_hash": "d22285df82ca3676885900d0c5536c86d8f694f6"
+          }
+        },
+        {
+          "client_id": "544440759791-4iqltuath829bi12kn3kve56gu1dumr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5UH2jua3xvTXw9FpVIvbOxAva2Kr9G-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544440759791-4iqltuath829bi12kn3kve56gu1dumr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
