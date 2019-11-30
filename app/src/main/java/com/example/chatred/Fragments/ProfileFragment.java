@@ -90,7 +90,7 @@ public class ProfileFragment extends Fragment {
                 User userr =dataSnapshot.getValue(User.class);
                 username.setText(userr.getUsername());
                 if (userr.getImageUrl().equals("default")){
-                    profile_image.setImageResource(R.drawable.pic2);
+                    profile_image.setImageResource(R.drawable.pic10);
                 }else {
                     Glide.with(getActivity()).load(userr.getImageUrl()).into(profile_image);
                 }

@@ -7,7 +7,7 @@
 <com.mikhaellopez.circularimageview.CircularImageView
     android:layout_width="40dp"
     android:layout_height="40dp"
-    android:src="@drawable/pic2"
+    android:src="@drawable/pic10"
     android:id="@+id/profile_image"/>
 <TextView
     android:layout_toRightOf="@id/profile_image"
@@ -15,7 +15,6 @@
     android:layout_height="wrap_content"
     android:background="@drawable/background_left"
     android:id="@+id/show_message"
-    android:text="hello"
     android:textSize="25dp"
     android:layout_marginLeft="5dp"
     android:padding="8dp"/>

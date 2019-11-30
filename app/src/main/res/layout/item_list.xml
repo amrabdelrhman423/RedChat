@@ -17,7 +17,7 @@
             android:layout_height="75dp"
             app:civ_shadow="true"
             app:civ_shadow_radius="0"
-            android:src="@drawable/pic2"
+            android:src="@drawable/pic10"
             app:civ_border="false" />
 
         <ImageView

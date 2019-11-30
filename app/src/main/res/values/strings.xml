@@ -3,4 +3,24 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">UserName</string>
+    <string name="problem">If you get problem you can contact me amrmedo432@gmail.com</string>
+    <string name="examEmail">Example@domai.com</string>
+    <string name="Phonenum">Phone</string>
+    <string name="Save">Save</string>
+    <string name="logOut">LogOut</string>
+    <string name="Search">Search....</string>
+    <string name="reset">Reset</string>
+    <string name="emailreset">By click RESET , You will recive email to reset</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="logIn">LogIn</string>
+    <string name="unKnown">UnKnown</string>
+    <string name="message">Type a Message.....</string>
+    <string name="forgetpass">Forget Password</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="story">Story</string>
+    <string name="profile">Profile</string>
 </resources>

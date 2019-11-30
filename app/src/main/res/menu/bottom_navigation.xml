@@ -3,20 +3,20 @@
 <item
     android:icon="@drawable/ic_home_black_24dp"
     android:id="@+id/home"
-    android:title="Home"
+    android:title="@string/home"
     />
     <item
         android:icon="@drawable/ic_message_black_24dp"
         android:id="@+id/chat"
-        android:title="Chat"
+        android:title="@string/chat"
         />
     <item
         android:id="@+id/story"
-        android:title="Story"
+        android:title="@string/story"
         android:icon="@drawable/ic_restore_black_24dp"
         />
     <item
-        android:title="Profile"
+        android:title="@string/profile"
         android:id="@+id/profile"
         android:icon="@drawable/ic_account_box_black_24dp"
         />

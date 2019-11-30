@@ -52,7 +52,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
        final User user =mlist.get(position);
        holder.username.setText(user.getUsername());
        if (user.getImageUrl().equals("default")){
-           holder.userimage.setImageResource(R.drawable.pic7);
+           holder.userimage.setImageResource(R.drawable.pic10);
        }else {
            Glide.with(context).load(user.getImageUrl()).into(holder.userimage);
        }

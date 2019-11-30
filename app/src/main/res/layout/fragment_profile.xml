@@ -20,14 +20,14 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/pic2"/>
+                android:src="@drawable/pic10"/>
             <TextView
                 android:id="@+id/profile_username"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Christopea"
+                android:text="@string/username"
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="21sp"/>
@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="If you get problem you can contact me amrmedo432@gmail.com"
+                android:text="@string/problem"
                 android:textSize="25dp"
                 android:layout_margin="10dp"
                 android:textColor="@color/colorPrimaryDark"/>
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Christopea@gmail.com"/>
+                android:text="@string/examEmail"/>
         </LinearLayout>
 
         <LinearLayout
@@ -90,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="+266 225 225"/>
+                android:text="@string/Phonenum"/>
         </LinearLayout>
 
 
@@ -102,7 +102,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"/>
+        android:text="@string/Save"/>
         <Button
             android:textColor="#fff"
             android:id="@+id/btn_Logout"
@@ -111,7 +111,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LogOut"/>
+            android:text="@string/logOut"/>
 
 
     </LinearLayout>

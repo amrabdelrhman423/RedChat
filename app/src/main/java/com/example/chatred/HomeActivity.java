@@ -32,11 +32,12 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationView bottomNav =findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navlistener);
     }
+    Fragment selectedFragment =new HomeFragment();
     private BottomNavigationView.OnNavigationItemSelectedListener navlistener=
             new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
                 public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                    Fragment selectedFragment =null;
+
                     switch (menuItem.getItemId()){
                         case R.id.profile:
                             selectedFragment =new ProfileFragment();

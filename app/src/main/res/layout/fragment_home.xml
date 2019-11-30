@@ -58,19 +58,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:hint="Search...."
+                android:hint="@string/Search"
                 android:imeOptions="actionSearch"
                 android:maxLines="1"
-
                 android:singleLine="true">
 
                 <requestFocus />
 
             </EditText>
-
-            <View
-                android:layout_width="@dimen/spacing_large"
-                android:layout_height="0dp" />
 
         </LinearLayout>
 

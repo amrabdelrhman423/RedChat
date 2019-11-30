@@ -13,7 +13,7 @@
     <com.mikhaellopez.circularimageview.CircularImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/pic2"
+        android:src="@drawable/pic10"
         android:id="@+id/profile_image"
         android:visibility="gone"
         />
@@ -23,7 +23,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bacground_right"
         android:id="@+id/show_message"
-        android:text="hello"
         android:textSize="18dp"
         android:textColor="#fff"
         android:layout_marginLeft="5dp"
